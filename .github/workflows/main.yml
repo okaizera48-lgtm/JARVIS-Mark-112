@@ -25,10 +25,10 @@ jobs:
           unzip -q Mark112_JARVIS_Fabric_1.21.11_SOURCE.zip -d source
           test -f source/Mark112_Nanotech/build.gradle
 
-      - name: Set up Gradle 8.14.3
+      - name: Set up Gradle 9.2.0
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.14.3'
+          gradle-version: '9.2.0'
 
       - name: Verify Java and Gradle
         run: |
