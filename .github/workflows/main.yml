@@ -22,7 +22,7 @@ jobs:
           java-version: '21'
           cache: gradle
 
-      - name: Set up Gradle
+      
 
       - name: Extract source
         run: unzip -q Mark112_JARVIS_Fabric_1.21.11_SOURCE.zip -d source
