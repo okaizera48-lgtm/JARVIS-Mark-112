@@ -23,7 +23,6 @@ jobs:
           cache: gradle
 
       - name: Set up Gradle
-        uses: gradle/actions/setup-gradle@v4
 
       - name: Extract source
         run: unzip -q Mark112_JARVIS_Fabric_1.21.11_SOURCE.zip -d source
